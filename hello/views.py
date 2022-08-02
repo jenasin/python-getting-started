@@ -18,4 +18,4 @@ def db(request):
     return render(request, "db.html", {"greetings": greetings})
 
 def myview(request):
-    return HttpResponse("return this string")
+    return render(request, "index.html")
